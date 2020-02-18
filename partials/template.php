@@ -47,6 +47,9 @@
 		        		?>
 		        	</span></a>
 		      	</li>
+		      	<li class="nav-item">
+		        	<a class="nav-link" href="order-history.php">Orders</a>
+		        </li>	
 		    </ul>
 		    <ul class="navbar-nav ml-auto mx-3">  	
 		      	<?php		
@@ -55,7 +58,7 @@
 		      		if(isset($_SESSION['user'])){
 		      	?>
 		      	<li class="nav-item">
-		      		<a class="nav-link" href="../views/profile.php">Hello <?php echo $_SESSION['user']['firstName'] ?>!</a>
+		      		<a class="nav-link" href="profile.php">Hello <?php echo $_SESSION['user']['firstName'] ?>!</a>
 		      	</li>
 		      	<li class="nav-item">
 		      		<a class="nav-link" href="../controllers/logout-process.php">Logout</a>

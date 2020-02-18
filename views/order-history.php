@@ -2,7 +2,7 @@
 	require "../partials/template.php";
 
 	function get_title(){
-		echo "History";
+		echo "Order History";
 	}
 	function get_body_contents(){
 		require "../controllers/connection.php";
